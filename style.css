@@ -1,45 +1,69 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     margin: 0;
-    font-family: Arial,
-}
-
-
-
-
-.container {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x)* 0.5);
-    padding-left: calc(var(--bs-gutter-x)* 0.5);
-    margin-right: auto;
+    padding: 0;
+    max-width: 1300px;
     margin-left: auto;
-}
+    margin-right: auto;
+    background-image: url('https://cdn.pixabay.com/photo/2020/03/21/02/26/pizza-4952508_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .header {
+    padding: 73px;
+    text-align: center;
+    background: gray;
+  }
 
-.navbar-collapse {
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar ul li {
+    margin: 0 1rem;
+  }
+
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .text1 {
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Posiziona il contenuto in basso */
+    height: calc(60vh - 137px); /* Altezza totale meno l'altezza della navbar */
+    text-align: center;
+    background-position: center;
+    padding-bottom: 20px; /* Distanza dal fondo */
+    font-size: 150px;
     position: fixed;
-    top: 0%;
-    left: 73%;
-    transform: translate(-50%);
-    width: 100%;
+    font-family: 'Dancing Script', serif;
+    color: aqua;
+  }
+
+
+
+  .navbar-collapse {
+    position: fixed;
+    width: 54%;
     padding: 1em 0;
     z-index: 1000;
     display: flex;
     flex-wrap: inherit;
     align-items: center;
     justify-content: space-between;
+  }
 
-
-
-
-}
-
-.navbarmenu {
+  .navbarmenu {
     float: right;
     display: inline;
     color: gray;
@@ -49,17 +73,13 @@ body {
     line-height: normal;
     display: flex;
     list-style-type: none;
+  }
 
-
-}
-
-
-.navbar li {
+  .navbar li {
     float: left;
+  }
 
-}
-
-.last-menu ul {
+  .last-menu ul {
     margin-right: 20px;
     text-align: center;
     list-style: none;
@@ -67,30 +87,21 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-}
+  }
 
-
-
-.navbar li a {
-    display: flex;
+  .navbar li a {
     color: grey;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
-}
+  }
 
-.navbar-toggler {
+  .navbar-toggler {
     position: fixed;
     top: 5%;
-    left: 63%;
+    left: 50%;
     transform: translate(-50%);
     width: 4%;
     z-index: 1000;
     display: flex;
-    flex-wrap: inherit;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-}
+  }
