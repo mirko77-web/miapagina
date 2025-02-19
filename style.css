@@ -36,11 +36,11 @@ body {
   }
 
   .text1 {
+    margin: 60px;
     margin-left: 20%;
     display: flex;
     justify-content: center;
     align-items: flex-end; /* Posiziona il contenuto in basso */
-    height: calc(60vh - 137px); /* Altezza totale meno l'altezza della navbar */
     text-align: center;
     background-position: center;
     padding-bottom: 20px; /* Distanza dal fondo */
@@ -48,8 +48,23 @@ body {
     position: fixed;
     font-family: 'Dancing Script', serif;
     color: aqua;
+    margin-bottom: 50px; 
   }
 
+  .text2 {
+    margin: 14%;
+    margin-left: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Posiziona il contenuto in basso */
+    text-align: center;
+    background-position: center;
+    padding-bottom: 20px; /* Distanza dal fondo */
+    font-size: 30px;
+    position: fixed;
+    font-family: 'Dancing Script', serif;
+    color: aqua;
+  }
 
 
   .navbar-collapse {
@@ -105,3 +120,5 @@ body {
     z-index: 1000;
     display: flex;
   }
+
+  
