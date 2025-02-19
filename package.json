@@ -1,0 +1,19 @@
+{
+  "name": "miapagina",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirko77-web/miapagina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirko77-web/miapagina/issues"
+  },
+  "homepage": "https://github.com/mirko77-web/miapagina#readme",
+  "description": ""
+}
